@@ -12,5 +12,3 @@ do {
 } catch (let error) {
     print("Error: \(error)")
 }
-
-hiji
