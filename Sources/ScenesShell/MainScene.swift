@@ -27,4 +27,14 @@ class MainScene : Scene {
         insert(layer:interactionLayer, at:.inFrontOf(object:backgroundLayer))
         insert(layer:foregroundLayer, at:.front)
     }
+
+    func incrementScore() {
+        foregroundLayer.incrementScore()
+    }
+
+        func decrementScore() {
+        foregroundLayer.decrementScore()
+    }
+
+
 }
